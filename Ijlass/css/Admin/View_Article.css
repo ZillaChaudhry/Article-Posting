@@ -1,0 +1,150 @@
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: white; /* White text for contrast */
+    font-size: 10px; /* Increase font size for better readability */
+    text-transform: uppercase; /* Optional: make header text uppercase */
+    font-weight: bold; /* Optional: make header text bold */
+}
+
+    /* Optional: Add a hover effect for added interactivity */
+    .header:hover {
+        background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0099ff); /* Slightly change the gradient on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow effect on hover */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+h1 {
+    font-size: 2em;
+    color: white;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+    .section h2 {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .section p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: #555;
+    }
+
+.pdf-viewer {
+    margin: 20px 0;
+    text-align: center;
+}
+
+    .pdf-viewer iframe {
+        width: 100%;
+        height: 400px;
+        border: none;
+        border-radius: 10px;
+    }
+
+.approval {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+    .approval button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .approval button:hover {
+            background-color: #45a049;
+        }
+
+
+
+
+
+
+
+        .approval-reject {
+            display: flex;
+            justify-content: space-between; /* Ensures buttons are separated */
+            align-items: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            gap: 10px; /* Adds space between buttons */
+        }
+        
+        .approval-reject button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .approval-reject button[name="approve"] {
+            background-color: #4caf50;
+        }
+        
+        .approval-reject button[name="approve"]:hover {
+            background-color: #45a049;
+        }
+        
+        .approval-reject button[name="reject"] {
+            background-color: #fc0922;
+        }
+        
+        .approval-reject button[name="reject"]:hover {
+            background-color: #d11a1f;
+        }
+        
+
+
+
+
+
+.comments {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+    .comments h3 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .comments textarea {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        resize: none;
+        background-color: #f1f1f1;
+        color: #333;
+    }
+
+        .comments textarea:disabled {
+            background-color: #e0e0e0;
+        }
+

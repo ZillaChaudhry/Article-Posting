@@ -1,0 +1,45 @@
+  .developer-section {
+    min-height: 30vh;
+    background: -webkit-linear-gradient(left, #00264d, #003366, #004080, #0059b3);
+    background: linear-gradient(to right, #00264d, #003366, #004080, #0059b3);
+    color: white;
+    padding: 20px 00px;
+  }
+  
+  .developer-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.7);
+  }
+  
+  .developer-info {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  p, ul {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: square;
+    margin-left: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

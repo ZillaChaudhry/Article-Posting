@@ -1,0 +1,43 @@
+
+  .contact-us-section {
+    min-height: 10vh;
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    background: linear-gradient(to right, #003366, #004080, #0059b3, #0073e6);
+    color: white;
+    padding:10px 0px;
+  }
+  
+  form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 115, 230, 0.5);
+    border-color: #0073e6;
+  }
+  
+  .btn-primary {
+    background-color: #0059b3;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003366;
+  }
+  

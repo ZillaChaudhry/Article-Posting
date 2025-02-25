@@ -1,0 +1,36 @@
+  
+  .services-section {
+    min-height: 10vh;
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    background: linear-gradient(to right, #003366, #004080, #0059b3, #0073e6);
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .service-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #290feb;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  

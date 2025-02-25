@@ -1,0 +1,73 @@
+
+/* Search results container */
+.search-results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Each result item */
+.result-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.result-item:hover {
+    transform: scale(1.02);
+}
+
+/* Icon container */
+.result-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* Content area */
+.result-content {
+    flex-grow: 1;
+}
+
+/* Title styling */
+.result-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+/* Description styling */
+.result-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* View button */
+.view-button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hover effects on the result item */
+.result-item:hover .view-button {
+    background-color: #0056b3;
+}

@@ -1,0 +1,33 @@
+ .terms-section {
+    min-height: 10vh;
+    background: -webkit-linear-gradient(left, #00264d, #003366, #004080, #0059b3);
+    background: linear-gradient(to right, #00264d, #003366, #004080, #0059b3);
+    color: white;
+    padding: 10px 0px;
+  }
+  
+  .terms-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

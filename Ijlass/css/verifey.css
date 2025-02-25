@@ -1,0 +1,99 @@
+﻿.verification {
+    background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+    , #0073e6);
+    border-radius: 20px; /* Rounded corners */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    font-size: 12px; /* Smaller font size */
+    font-weight: 700; /* Font weight */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+
+
+.title.verification {
+    height:80px!important;
+    align-content:center;
+    margin-top: 5% !important;
+    font-size: 20px !important; /* Adjust font size */
+    padding: 15px !important; /* Adjust padding */
+}
+
+@media (max-width: 777px) {
+    .title.verification {
+        margin-top:5%!important;
+        font-size: 20px; /* Adjust font size */
+        padding: 15px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 500px) {
+    .title.verification {
+        margin-top: 5% !important;
+        font-size: 18px; /* Further adjust font size */
+        padding: 10px; /* Further adjust padding */
+    }
+}
+
+
+/* Centering the card on the page */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f4f4f4;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style for the form and fields */
+.form-container {
+    padding: 20px;
+}
+
+.form-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.field.btn input {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.field.btn input:hover {
+    background-color: #0056b3;
+}
+
+.verification-link {
+    text-align: center;
+}
+
+.alert {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+# Disable directory listing for security
+Options -Indexes
+
+# Ensure index.php is loaded by default
+DirectoryIndex index.php
+
+# Enable rewrite engine for clean URLs (optional if you want pretty URLs)
+RewriteEngine On
+
+# Redirect all traffic to index.php for routing (if applicable)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]

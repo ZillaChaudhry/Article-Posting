@@ -1,0 +1,392 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    background-color: #f4f7f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #34495e;
+    padding: 20px 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header .logo a {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ecf0f1;
+  }
+  
+  .header .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .header .nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .header .nav a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Content Styles */
+  .content {
+    text-align: center;
+    padding: 60px 0;
+    background-color: white;
+  }
+  
+  .content h1 {
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    color: #34495e;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-top: 10px;
+  }
+  
+  
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Colors */
+        :root {
+            --primary-color: #4ca0f9;
+            --secondary-color: #fff;
+            --text-color: #333;
+            --top-header-bg: #333;
+            --main-header-bg: var(--primary-color);
+        }
+
+        /* Global Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: var(--text-color);
+            background-color: #f4f4f9;
+        }
+
+        /* Top Header */
+        .top-header {
+            background: white;
+            color: var(--secondary-color);
+            padding: 5px 20px;
+            font-size: 0.9em;
+            text-align: right;
+        }
+
+        .top-header__links a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            margin-left: 15px;
+            transition: color 0.3s;
+        }
+
+        .top-header__links a:hover {
+            color: #ccc;
+        }
+
+        /* Main Header */
+        .main-header {
+            background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+, #0073e6);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--secondary-color);
+        }
+
+        .main-header__logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .main-header__nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .main-header__nav-list {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .main-header__nav-item a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            padding: 8px 12px;
+            transition: background 0.3s;
+        }
+
+        .main-header__nav-item a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        
+        .main-header__menu-icon {
+            font-size: 1em;           /* Size of the icon */
+            cursor: pointer;
+            color: #fff;              /* Color of the icon */
+            padding: 10px 15px;       /* Padding for space around the icon */
+            border: 2px solid #fff;   /* White border */
+            border-radius: 5px;       /* Optional: rounded corners */
+            display: none;            /* Hidden by default */
+        }
+        
+        @media (max-width: 768px) {
+            .main-header__nav {
+                display: none; /* Hide navigation in mobile view by default */
+            }
+        
+            .main-header__menu-icon {
+                display: block; /* Show menu icon in mobile view */
+            }
+        
+            /* Ensure that the navigation appears in mobile view when toggled */
+            .main-header__nav-list.show {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 20px;
+                background-color: #333;
+                padding: 10px;
+                border-radius: 5px;
+            }
+        }
+        
+                /* Footer */
+    .footer {
+    margin-top: 10px;
+    background-color: var(--footer-bg-color);
+    color: var(--secondary-color);
+    text-align: center;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+, #0073e6);
+    }
+
+    .footer__links {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer__link {
+        color: var(--secondary-color);
+        text-decoration: none;
+        font-size: 1.0em;
+    }
+    .footer__link:hover {
+        color: #ccc;
+    }
+    .footer__text {
+        font-size: 1.0em;
+    }
+    /* Footer Responsiveness */
+    @media (max-width: 768px) {
+        .footer__content {
+            flex-direction: column;
+            text-align: center;
+        }
+    }  
+    .bg-gradient {
+        background: linear-gradient(135deg, #ff7eb9, #ff65a3);
+    }
+
+    /* Shadow */
+    .shadow {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+
+    /* Flex center alignment and gap */
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .contact-link {
+        color: black;
+        text-decoration: none;
+        font-weight: bold; /* Make the text bold */
+        background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6); /* Apply gradient background */
+        padding: 10px; /* Add padding to make it look better */
+        border-radius: 5px; /* Optional: rounded corners */
+        display: flex;
+        align-items: center;
+    }
+    
+    .contact-link i {
+        font-size: 24px; /* Make the icon larger */
+        margin-right: 10px; /* Space between icon and text */
+    }
+    
+    /* Button styling */
+    .button {
+        background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+, #0073e6);
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #fff;
+        transition: all 0.3s ease;
+        
+    }
+    
+        /* Rounded corners */
+        .rounded {
+            border-radius: 50px;
+        }
+    
+        /* Hover shadow and transform */
+        .shadow-hover {
+            color: black;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .shadow-hover:hover {
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+    
+        /* Primary color text */
+        .text-primary {
+            color: #fdfec2;
+        }
+    
+        /* Button hover style */
+        .button:hover {
+            background-color: #fdfec2;
+            color: #fff;
+        }
+        .gap {
+            margin-left: 950px;
+            gap: 15px;
+        }
+        
+        
+    
+        /* Responsive adjustment for mobile */
+        @media (max-width: 768px) {
+            .button {
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }
+            .gap {
+                margin-left: 250px;
+                gap: 15px;
+            }
+        }
+
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+, #0073e6);
+            color: white;
+        }
+        
+        .main-header__logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .main-header__nav {
+            display: flex;
+        }
+        
+        .main-header__nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .main-header__nav-item {
+            margin-right: 20px;
+        }
+        
+        .main-header__nav-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+        }
+        
+        /* Style for mobile view (hamburger menu) */
+        .main-header__menu-icon {
+            display: none;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 768px) {
+            .main-header__nav {
+                display: none;
+                width: 100%;
+            }
+        
+            .main-header__nav-list {
+                flex-direction: column;
+                width: 100%;
+                background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+, #0073e6);
+            }
+        
+            .main-header__nav-item {
+                margin: 0;
+                text-align: center;
+                padding: 10px;
+                width: 100%;
+            }
+        
+            .main-header__menu-icon {
+                display: block;
+            }
+        
+            /* Show navigation menu when active */
+            .main-header__nav.active {
+                display: block;
+            }
+        }
+        

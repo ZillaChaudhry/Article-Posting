@@ -1,0 +1,25 @@
+
+  
+  .about-us-section {
+    min-height: 10vh;
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    background: linear-gradient(to right, #003366, #004080, #0059b3, #0073e6);
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: white;
+  }
+  

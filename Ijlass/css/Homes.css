@@ -1,0 +1,365 @@
+.container {
+    width: 90%;
+    margin-top: 10px;
+    max-width: 600px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+    , #0073e6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .item {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  .title, .abstract {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  .show-more {
+    cursor: pointer;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  .download-container {
+    margin-top: 20px;
+  }
+  .download-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .download-btn:hover {
+    background-color: #ffb700;
+  }
+  .pdf-icon {
+    font-size: 2em;
+    margin-right: 5px;
+    color: #ffcc00;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    color: #0073e6;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #0073e6;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .pagination a:hover {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .pagination span {
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  .container {
+    width: 90%;
+    margin-top: 10px;
+    max-width: 600px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+    , #0073e6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .item {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  .title, .abstract {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  .show-more {
+    cursor: pointer;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  .download-container {
+    margin-top: 20px;
+  }
+  .download-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .download-btn:hover {
+    background-color: #ffb700;
+  }
+  .pdf-icon {
+    font-size: 2em;
+    margin-right: 5px;
+    color: #ffcc00;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    color: #0073e6;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #0073e6;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .pagination a:hover {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .pagination span {
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  .container {
+    width: 90%;
+    margin-top: 10px;
+    max-width: 600px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+    , #0073e6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .item {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  .title, .abstract {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  .show-more {
+    cursor: pointer;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  .download-container {
+    margin-top: 20px;
+  }
+  .download-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .download-btn:hover {
+    background-color: #ffb700;
+  }
+  .pdf-icon {
+    font-size: 2em;
+    margin-right: 5px;
+    color: #ffcc00;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    color: #0073e6;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #0073e6;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .pagination a:hover {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .pagination span {
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  .container {
+    width: 90%;
+    margin-top: 10px;
+    max-width: 600px;
+    padding: 20px;
+    background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
+    , #0073e6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .item {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  .title, .abstract {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  .show-more {
+    cursor: pointer;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  .download-container {
+    margin-top: 20px;
+  }
+  .download-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .download-btn:hover {
+    background-color: #ffb700;
+  }
+  .pdf-icon {
+    font-size: 2em;
+    margin-right: 5px;
+    color: #ffcc00;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    color: #0073e6;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #0073e6;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .pagination a:hover {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .pagination span {
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  
